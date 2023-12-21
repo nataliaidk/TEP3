@@ -1,9 +1,12 @@
-
-#include "Interface.h"
+#include <vector>
+#include <iostream>
+#include <string>
+#include <sstream>
+#include "interface.h"
 
 int main() {
-	ExpressionInterface interface;
-	interface.run();
-
+	ExpressionInterface<double> interfaceInt;
+	interfaceInt.start();
 	return 0;
+
 }
